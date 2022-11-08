@@ -14,7 +14,7 @@ if (isset($_SESSION) && isset($_SESSION["admin"])) {
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Achados e perdidos UNIFEBE</title>
+	<title>Achados e perdidos</title>
 	<link rel="stylesheet" href="fonts/fontawesome/css/all.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
@@ -49,7 +49,7 @@ if (isset($_SESSION) && isset($_SESSION["admin"])) {
 	<nav class="navbar navbar-light bg-light">
 		<a class="navbar-brand" href="index.php?page=home.php">
 			<img src="https://www.unifebe.edu.br/site/wp-content/uploads/unifebe.png" width="40" height="40" class="d-inline-block align-top" alt="">
-			Achados e Perdidos UNIFEBE <i style="color: #001b9fe6;" class="fa fa-home ml-5" aria-hidden="true"></i>
+			Achados e Perdidos<i style="color: #001b9fe6;" class="fa fa-home ml-5" aria-hidden="true"></i>
 		</a>
 		<?php if (isset($_SESSION) && isset($_SESSION["sistema"]) && $_SESSION["sistema"] == "achados_e_perdidos") : ?>
 			<a class="navbar-brand" href="logout.php" style="color: #001b9fe6;"><i class="fa fa-right-from-bracket" aria-hidden="true"></i></a>
