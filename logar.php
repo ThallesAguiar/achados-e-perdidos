@@ -3,7 +3,7 @@ session_start();
 
 if (isset($_POST["cd_usuario"]) && isset($_POST["senha"]) && isset($_POST["login"])) {
 
-  $url = 'https://plus-api.unifebe.edu.br/api/login';
+  $url = 'URL DA SUA API DE AUTH';
   $ch = curl_init($url);
   curl_setopt($ch, CURLOPT_HEADER, false);
   curl_setopt($ch, CURLOPT_NOBODY, false);

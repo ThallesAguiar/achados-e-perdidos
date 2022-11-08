@@ -10,7 +10,7 @@ if (isset($_POST["cd_usuario"]) && isset($_POST["senha"]) && isset($_POST["assin
         'tipo' => null
     );
 
-    $url = 'https://minha.unifebe.edu.br/cursos/inscricao/servicos/validarLogin';
+    $url = 'URL DA SUA API DE AUTH';
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_HEADER, false);
     curl_setopt($ch, CURLOPT_NOBODY, false);
